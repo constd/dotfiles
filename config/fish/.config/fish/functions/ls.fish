@@ -1,5 +1,5 @@
-function ls -d 'exa instead of ls'
-  if type --quiet exa
+function ls -d 'eza instead of ls'
+  if type --quiet eza
     exa --group-directories-first --git --icons $argv
   else
     command ls --color=auto $argv
