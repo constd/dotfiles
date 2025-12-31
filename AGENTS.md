@@ -8,20 +8,41 @@ This repository manages personal dotfiles for a senior software engineer using G
 
 ```
 dotfiles/
-├── fish/
-│   └── .config/fish/
-├── atuin/
-│   └── .config/atuin/
-├── tmux/
-│   └── .tmux.conf
-├── zellij/
-│   └── .config/zellij/
-├── git/
-│   └── .gitconfig
-├── nvim/
-│   └── .config/nvim/
-├── starship/
-│   └── .config/starship.toml
+├── config/
+│   ├── aerospace/
+│   │   └── .config/aerospace/
+│   │       └── aerospace.toml
+│   ├── atuin/
+│   │   └── .config/atuin/
+│   │       └── config.toml
+│   ├── fish/
+│   │   └── .config/fish/
+│   │       ├── conf.d/
+│   │       │   ├── atuin.env.fish
+│   │       │   ├── rustup.fish
+│   │       │   └── uv.env.fish
+│   │       ├── functions/
+│   │       │   ├── fish_jj_prompt.fish
+│   │       │   ├── fish_user_key_bindings.fish
+│   │       │   ├── fish_vcs_prompt.fish
+│   │       │   └── ls.fish
+│   │       └── config.fish
+│   ├── ghostty/
+│   │   └── .config/ghostty/
+│   │       └── config
+│   ├── lazygit/
+│   │   └── .config/lazygit/
+│   │       └── config.yml
+│   ├── starship/
+│   │   └── .config/
+│   │       └── starship.toml
+│   ├── tmux/
+│   │   └── .config/tmux/
+│   │       ├── tmux.conf
+│   │       └── tmux.reset.conf
+│   └── zed/
+│       └── .config/zed/
+│           └── settings.json
 ├── scripts/
 │   └── bootstrap.sh
 ├── CHANGELOG.md
